@@ -3,6 +3,7 @@
 <head>
   {{ block "head" . }}
   {{ end }}
+  <link rel="stylesheet" href="{{ "compiled.css" | relURL }}">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Title }}</title>
@@ -10,5 +11,8 @@
 <body>
   {{ block "main" . }}
   {{ end }}
+  <button class="button">
+    Hello world
+  </button>
 </body>
 </html>
