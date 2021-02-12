@@ -1,19 +1,26 @@
 module.exports = {
-  purge: {
-    content: ['../site/public/**/*.html', '../site/public/**/*.js'],
-    css: ['../site/static/*.css'],
-    defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-    whitelistPatterns: [/prose$/]
-  },
+  // purge: {
+  //   content: ['../site/public/**/*.html', '../site/public/**/*.js'],
+  //   css: ['../site/static/*.css'],
+  //   defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
+  //   whitelistPatterns: [/prose$/]
+  // },
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['ui-serif', 'Georgia'],
+      'mono': ['ui-monospace', 'SFMono-Regular'],
+      'display': ['Staatliches'],
+      'body': ['Open Sans'],
+    },
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#48b5e0'
+          DEFAULT: '#173480'
         },
         secondary: {
-          DEFAULT: '#71eeb8'
+          DEFAULT: '#faed33'
         }
       },
     },
