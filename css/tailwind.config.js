@@ -1,18 +1,18 @@
 module.exports = {
-  // purge: {
-  //   content: ['../site/public/**/*.html', '../site/public/**/*.js'],
-  //   css: ['../site/static/*.css'],
-  //   defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-  //   whitelistPatterns: [/prose$/]
-  // },
+  purge: {
+    content: ['../site/public/**/*.html', '../site/public/**/*.js'],
+    css: ['../site/static/*.css'],
+    defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
+    whitelistPatterns: [/prose$/]
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
-      'display': ['Staatliches'],
-      'body': ['Open Sans'],
+      'display': ['Staatliches', 'ui-sans-serif'],
+      'body': ['Oswald', 'ui-serif'],
     },
     extend: {
       colors: {

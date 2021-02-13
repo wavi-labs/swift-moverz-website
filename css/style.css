@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Staatliches&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,5 +7,17 @@
 @layer components {
   .button {
     @apply px-2 py-4 text-lg bg-red-500 text-white;
+  }
+
+  .tab-selected {
+    @apply border-secondary text-white inline-flex items-center px-1 pt-1 border-b-4 text-lg font-body font-semibold;
+  }
+
+  .tab {
+    @apply border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-body;
+  }
+
+  .tab:hover {
+    @apply border-gray-300 text-gray-700;
   }
 }
