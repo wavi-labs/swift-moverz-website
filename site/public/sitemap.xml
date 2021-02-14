@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>http://example.org/services/service-1/</loc>
-    <lastmod>2021-02-11T15:18:22-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/</loc>
     <lastmod>2021-02-11T15:11:43-08:00</lastmod>
   </url>
