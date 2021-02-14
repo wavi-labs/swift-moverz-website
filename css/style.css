@@ -5,8 +5,20 @@
 @tailwind utilities;
 
 @layer components {
+  .service-icon {
+    @apply inline-flex items-center justify-center p-3 bg-primary shadow-lg;
+  }
+
+  .service-panel {
+    @apply flow-root bg-secondary px-6 pb-8;
+  }
+
   .button {
-    @apply px-2 py-4 text-lg bg-red-500 text-white;
+    @apply inline-flex items-center justify-center border-4 border-primary text-2xl font-bold font-display text-primary tracking-wide bg-white transform-gpu transition;
+  }
+
+  .button:hover {
+    @apply bg-primary text-white scale-105;
   }
 
   .tab-selected {
@@ -14,10 +26,10 @@
   }
 
   .tab {
-    @apply border-transparent text-gray-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-body;
+    @apply border-transparent text-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-body;
   }
 
   .tab:hover {
-    @apply border-gray-300 text-gray-700;
+    @apply border-gray-300 text-gray-200;
   }
 }

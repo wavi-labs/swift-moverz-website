@@ -1,10 +1,11 @@
 module.exports = {
-  purge: {
-    content: ['../site/public/**/*.html', '../site/public/**/*.js'],
-    css: ['../site/static/*.css'],
-    defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-    whitelistPatterns: [/prose$/]
-  },
+  purge: false,
+  // purge: {
+  //   content: ['../site/public/**/*.html', '../site/public/**/*.js'],
+  //   css: ['../site/static/*.css'],
+  //   defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
+  //   whitelistPatterns: [/prose$/]
+  // },
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
