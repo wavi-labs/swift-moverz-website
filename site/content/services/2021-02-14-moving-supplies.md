@@ -1,7 +1,7 @@
 ---
-title: Moving Supplies
+title: Residential Relocation
 date: 2021-02-14T23:34:31.522Z
 draft: false
-description: Use our moving supplies for an amazing rate.
+description: We can move your precious belongings to your new residence.
 ---
 To do
