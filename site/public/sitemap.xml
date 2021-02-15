@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/services/2021-02-14-heavy-unusual-items-1/</loc>
+    <lastmod>2021-02-14T23:49:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/services/</loc>
+    <lastmod>2021-02-14T23:49:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/services/2021-02-14-moving-supplies-1/</loc>
+    <lastmod>2021-02-14T23:35:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/services/2021-02-14-moving-supplies/</loc>
+    <lastmod>2021-02-14T23:34:31+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/</loc>
     <lastmod>2021-02-11T15:11:43-08:00</lastmod>
   </url>
