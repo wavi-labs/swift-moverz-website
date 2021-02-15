@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/services/</loc>
-    <lastmod>2021-02-11T15:24:18-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://example.org/</loc>
     <lastmod>2021-02-11T15:11:43-08:00</lastmod>
   </url>
