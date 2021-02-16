@@ -22,14 +22,18 @@
   }
 
   .tab-selected {
-    @apply border-secondary text-white inline-flex items-center px-1 pt-1 border-b-4 text-lg font-body font-semibold;
+    @apply border-secondary text-white inline-flex items-center px-1 pt-1 border-b-4 text-xl font-display font-semibold;
   }
 
   .tab {
-    @apply border-transparent text-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-body;
+    @apply border-transparent text-gray-300 inline-flex items-center px-1 pt-1 border-b-2 text-xl font-display;
   }
 
   .tab:hover {
     @apply border-gray-300 text-gray-200;
+  }
+
+  .header {
+    @apply text-3xl font-bold font-display text-primary sm:text-4xl lg:text-5xl;
   }
 }

@@ -36,3 +36,5 @@ collections:
       - {label: "Image", name: image, widget: "image"}
       - {label: "Summary", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+
