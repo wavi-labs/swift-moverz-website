@@ -2,7 +2,7 @@ module.exports = {
   //purge: false,
   purge: {
     content: ['../site/public/**/*.html', '../site/public/**/*.js'],
-    css: ['../site/static/*.css'],
+    css: ['../site/public/*.css'],
     defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
     whitelistPatterns: [/prose$/]
   },
