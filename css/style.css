@@ -33,6 +33,14 @@
     @apply border-gray-300 text-gray-200;
   }
 
+  .mobile-tab-selected {
+    @apply bg-white border-secondary text-primary block pl-3 pr-4 py-2 border-l-4 text-base font-medium;
+  }
+
+  .mobile-tab {
+    @apply border-transparent text-gray-300 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium;
+  }
+
   .header {
     @apply text-3xl font-bold font-display text-primary sm:text-4xl lg:text-5xl;
   }
